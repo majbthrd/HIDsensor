@@ -19,3 +19,5 @@ An understanding of USB descriptors is important when modifying usb\_descriptors
 
 Be *certain* that the Feature and Input Reports *exactly* match, byte-for-byte, what is described in the HID Report.
 
+The Makefile uses compiler options --rom and --codeoffset to work with this [open-source PIC16F1454 bootloader](https://github.com/majbthrd/PIC16F1-USB-DFU-Bootloader/).  If, however, you are a masochist who wants the pain and suffering of using a Microchip PICkit3 to reprogram the chip each and every time you change your code, then alter these compiler options.
+
