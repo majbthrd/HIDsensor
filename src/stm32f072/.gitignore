@@ -1,0 +1,4 @@
+*.bak
+stm32hidsensor THUMB Debug\*
+stm32hidsensor THUMB Release\*
+*.hzs
